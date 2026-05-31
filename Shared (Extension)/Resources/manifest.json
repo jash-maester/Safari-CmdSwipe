@@ -2,8 +2,15 @@
   "manifest_version": 3,
   "name": "CmdSwipe",
   "version": "1.1",
-  "description": "Switch Safari tabs with a configurable modifier + 2-finger horizontal swipe.",
+  "description": "Switch Safari tabs with a configurable modifier + 2-finger horizontal swipe. Does not read page content.",
   "permissions": ["tabs", "storage"],
+  "icons": {
+    "48":  "images/toolbar-48.png",
+    "96":  "images/toolbar-96.png",
+    "128": "images/toolbar-128.png",
+    "256": "images/toolbar-256.png",
+    "512": "images/toolbar-512.png"
+  },
   "background": {
     "service_worker": "background.js"
   },
@@ -17,6 +24,11 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Open CmdSwipe Popup"
+    "default_title": "Open CmdSwipe Popup",
+    "default_icon": {
+      "48":  "images/toolbar-48.png",
+      "96":  "images/toolbar-96.png",
+      "128": "images/toolbar-128.png"
+    }
   }
 }

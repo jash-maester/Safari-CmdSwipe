@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "large-icon-256.png",
       "idiom" : "universal",
       "scale" : "1x"
     },

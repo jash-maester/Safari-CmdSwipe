@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A11A11A11A11A11A11A11002 /* images in Resources */ = {isa = PBXBuildFile; fileRef = A11A11A11A11A11A11A11001 /* images */; };
+		A11A11A11A11A11A11A11003 /* images in Resources */ = {isa = PBXBuildFile; fileRef = A11A11A11A11A11A11A11001 /* images */; };
 		C21372952FCC424D00C5B03A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21372942FCC424D00C5B03A /* AppDelegate.swift */; };
 		C21372972FCC424D00C5B03A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21372962FCC424D00C5B03A /* SceneDelegate.swift */; };
 		C213729A2FCC424D00C5B03A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21372982FCC424D00C5B03A /* LaunchScreen.storyboard */; };
@@ -39,6 +41,8 @@
 		C2865B902FCC44E5005A3420 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C2865B8E2FCC44E5005A3420 /* popup.js */; };
 		C2865B912FCC44E5005A3420 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C2865B8D2FCC44E5005A3420 /* popup.html */; };
 		C2865B922FCC44E5005A3420 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C2865B8E2FCC44E5005A3420 /* popup.js */; };
+		C2FB10F12FCC64B200069212 /* CmdSwipe.icon in Resources */ = {isa = PBXBuildFile; fileRef = C2FB10F02FCC64B200069212 /* CmdSwipe.icon */; };
+		C2FB10F22FCC64B200069212 /* CmdSwipe.icon in Resources */ = {isa = PBXBuildFile; fileRef = C2FB10F02FCC64B200069212 /* CmdSwipe.icon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +88,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A11A11A11A11A11A11A11001 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		C21372852FCC424C00C5B03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
 		C21372862FCC424C00C5B03A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		C21372872FCC424C00C5B03A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -110,6 +115,7 @@
 		C21372E02FCC424D00C5B03A /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		C2865B8D2FCC44E5005A3420 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		C2865B8E2FCC44E5005A3420 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		C2FB10F02FCC64B200069212 /* CmdSwipe.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = CmdSwipe.icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +168,7 @@
 			children = (
 				C21372892FCC424C00C5B03A /* ViewController.swift */,
 				C213728A2FCC424D00C5B03A /* Assets.xcassets */,
+				C2FB10F02FCC64B200069212 /* CmdSwipe.icon */,
 				C21372832FCC424C00C5B03A /* Resources */,
 			);
 			path = "Shared (App)";
@@ -244,6 +251,7 @@
 				C21372E02FCC424D00C5B03A /* content.js */,
 				C2865B8D2FCC44E5005A3420 /* popup.html */,
 				C2865B8E2FCC44E5005A3420 /* popup.js */,
+				A11A11A11A11A11A11A11001 /* images */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -387,6 +395,7 @@
 				C21372BF2FCC424D00C5B03A /* Main.html in Resources */,
 				C21372C52FCC424D00C5B03A /* Script.js in Resources */,
 				C21372C92FCC424D00C5B03A /* Assets.xcassets in Resources */,
+				C2FB10F22FCC64B200069212 /* CmdSwipe.icon in Resources */,
 				C213729D2FCC424D00C5B03A /* Main.storyboard in Resources */,
 				C21372C32FCC424D00C5B03A /* Style.css in Resources */,
 			);
@@ -399,6 +408,7 @@
 				C21372C22FCC424D00C5B03A /* Icon.png in Resources */,
 				C21372C42FCC424D00C5B03A /* Style.css in Resources */,
 				C21372A92FCC424D00C5B03A /* Main.storyboard in Resources */,
+				C2FB10F12FCC64B200069212 /* CmdSwipe.icon in Resources */,
 				C21372C62FCC424D00C5B03A /* Script.js in Resources */,
 				C21372CA2FCC424D00C5B03A /* Assets.xcassets in Resources */,
 				C21372C02FCC424D00C5B03A /* Main.html in Resources */,
@@ -414,6 +424,7 @@
 				C21372E62FCC424D00C5B03A /* content.js in Resources */,
 				C21372E52FCC424D00C5B03A /* manifest.json in Resources */,
 				C21372E42FCC424D00C5B03A /* background.js in Resources */,
+				A11A11A11A11A11A11A11003 /* images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +437,7 @@
 				C21372E32FCC424D00C5B03A /* content.js in Resources */,
 				C21372E22FCC424D00C5B03A /* manifest.json in Resources */,
 				C21372E12FCC424D00C5B03A /* background.js in Resources */,
+				A11A11A11A11A11A11A11002 /* images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,12 +718,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 54RY29KA2Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = CmdSwipe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -747,12 +761,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 54RY29KA2Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = CmdSwipe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -811,7 +827,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -856,7 +872,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -877,8 +893,9 @@
 		C21372DB2FCC424D00C5B03A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = CmdSwipe;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -890,13 +907,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = CmdSwipe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -920,8 +938,9 @@
 		C21372DC2FCC424D00C5B03A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = CmdSwipe;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -933,13 +952,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = CmdSwipe;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
