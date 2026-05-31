@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C21372952FCC424D00C5B03A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21372942FCC424D00C5B03A /* AppDelegate.swift */; };
+		C21372972FCC424D00C5B03A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21372962FCC424D00C5B03A /* SceneDelegate.swift */; };
+		C213729A2FCC424D00C5B03A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21372982FCC424D00C5B03A /* LaunchScreen.storyboard */; };
+		C213729D2FCC424D00C5B03A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C213729B2FCC424D00C5B03A /* Main.storyboard */; };
+		C21372A62FCC424D00C5B03A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21372A52FCC424D00C5B03A /* AppDelegate.swift */; };
+		C21372A92FCC424D00C5B03A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21372A72FCC424D00C5B03A /* Main.storyboard */; };
+		C21372B02FCC424D00C5B03A /* CmdSwipe Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C21372AF2FCC424D00C5B03A /* CmdSwipe Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C21372BA2FCC424D00C5B03A /* CmdSwipe Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C21372B92FCC424D00C5B03A /* CmdSwipe Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C21372BF2FCC424D00C5B03A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C21372842FCC424C00C5B03A /* Main.html */; };
+		C21372C02FCC424D00C5B03A /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C21372842FCC424C00C5B03A /* Main.html */; };
+		C21372C12FCC424D00C5B03A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C21372862FCC424C00C5B03A /* Icon.png */; };
+		C21372C22FCC424D00C5B03A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C21372862FCC424C00C5B03A /* Icon.png */; };
+		C21372C32FCC424D00C5B03A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C21372872FCC424C00C5B03A /* Style.css */; };
+		C21372C42FCC424D00C5B03A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C21372872FCC424C00C5B03A /* Style.css */; };
+		C21372C52FCC424D00C5B03A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C21372882FCC424C00C5B03A /* Script.js */; };
+		C21372C62FCC424D00C5B03A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C21372882FCC424C00C5B03A /* Script.js */; };
+		C21372C72FCC424D00C5B03A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21372892FCC424C00C5B03A /* ViewController.swift */; };
+		C21372C82FCC424D00C5B03A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21372892FCC424C00C5B03A /* ViewController.swift */; };
+		C21372C92FCC424D00C5B03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C213728A2FCC424D00C5B03A /* Assets.xcassets */; };
+		C21372CA2FCC424D00C5B03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C213728A2FCC424D00C5B03A /* Assets.xcassets */; };
+		C21372CB2FCC424D00C5B03A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C213728C2FCC424D00C5B03A /* SafariWebExtensionHandler.swift */; };
+		C21372CC2FCC424D00C5B03A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C213728C2FCC424D00C5B03A /* SafariWebExtensionHandler.swift */; };
+		C21372E12FCC424D00C5B03A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = C21372DE2FCC424D00C5B03A /* background.js */; };
+		C21372E22FCC424D00C5B03A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C21372DF2FCC424D00C5B03A /* manifest.json */; };
+		C21372E32FCC424D00C5B03A /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C21372E02FCC424D00C5B03A /* content.js */; };
+		C21372E42FCC424D00C5B03A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = C21372DE2FCC424D00C5B03A /* background.js */; };
+		C21372E52FCC424D00C5B03A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C21372DF2FCC424D00C5B03A /* manifest.json */; };
+		C21372E62FCC424D00C5B03A /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C21372E02FCC424D00C5B03A /* content.js */; };
+		C2865B8F2FCC44E5005A3420 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C2865B8D2FCC44E5005A3420 /* popup.html */; };
+		C2865B902FCC44E5005A3420 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C2865B8E2FCC44E5005A3420 /* popup.js */; };
+		C2865B912FCC44E5005A3420 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = C2865B8D2FCC44E5005A3420 /* popup.html */; };
+		C2865B922FCC44E5005A3420 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = C2865B8E2FCC44E5005A3420 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C21372B12FCC424D00C5B03A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C213727E2FCC424C00C5B03A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21372AE2FCC424D00C5B03A;
+			remoteInfo = "CmdSwipe Extension (iOS)";
+		};
+		C21372BB2FCC424D00C5B03A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C213727E2FCC424C00C5B03A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21372B82FCC424D00C5B03A;
+			remoteInfo = "CmdSwipe Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C21372D22FCC424D00C5B03A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C21372B02FCC424D00C5B03A /* CmdSwipe Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21372D92FCC424D00C5B03A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C21372BA2FCC424D00C5B03A /* CmdSwipe Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C21372852FCC424C00C5B03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		C21372862FCC424C00C5B03A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C21372872FCC424C00C5B03A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C21372882FCC424C00C5B03A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		C21372892FCC424C00C5B03A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C213728A2FCC424D00C5B03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C213728C2FCC424D00C5B03A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C21372912FCC424D00C5B03A /* CmdSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CmdSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21372942FCC424D00C5B03A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C21372962FCC424D00C5B03A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C21372992FCC424D00C5B03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C213729C2FCC424D00C5B03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C213729E2FCC424D00C5B03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21372A32FCC424D00C5B03A /* CmdSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CmdSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21372A52FCC424D00C5B03A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C21372A82FCC424D00C5B03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C21372AA2FCC424D00C5B03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21372AF2FCC424D00C5B03A /* CmdSwipe Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CmdSwipe Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21372B42FCC424D00C5B03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21372B92FCC424D00C5B03A /* CmdSwipe Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CmdSwipe Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21372BE2FCC424D00C5B03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C21372DE2FCC424D00C5B03A /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		C21372DF2FCC424D00C5B03A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		C21372E02FCC424D00C5B03A /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		C2865B8D2FCC44E5005A3420 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		C2865B8E2FCC44E5005A3420 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C213728E2FCC424D00C5B03A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21372A02FCC424D00C5B03A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21372AC2FCC424D00C5B03A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21372B62FCC424D00C5B03A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C213727D2FCC424C00C5B03A = {
+			isa = PBXGroup;
+			children = (
+				C21372822FCC424C00C5B03A /* Shared (App) */,
+				C213728B2FCC424D00C5B03A /* Shared (Extension) */,
+				C21372932FCC424D00C5B03A /* iOS (App) */,
+				C21372A42FCC424D00C5B03A /* macOS (App) */,
+				C21372B32FCC424D00C5B03A /* iOS (Extension) */,
+				C21372BD2FCC424D00C5B03A /* macOS (Extension) */,
+				C21372922FCC424D00C5B03A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C21372822FCC424C00C5B03A /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C21372892FCC424C00C5B03A /* ViewController.swift */,
+				C213728A2FCC424D00C5B03A /* Assets.xcassets */,
+				C21372832FCC424C00C5B03A /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		C21372832FCC424C00C5B03A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C21372842FCC424C00C5B03A /* Main.html */,
+				C21372862FCC424C00C5B03A /* Icon.png */,
+				C21372872FCC424C00C5B03A /* Style.css */,
+				C21372882FCC424C00C5B03A /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C213728B2FCC424D00C5B03A /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C21372DD2FCC424D00C5B03A /* Resources */,
+				C213728C2FCC424D00C5B03A /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		C21372922FCC424D00C5B03A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C21372912FCC424D00C5B03A /* CmdSwipe.app */,
+				C21372A32FCC424D00C5B03A /* CmdSwipe.app */,
+				C21372AF2FCC424D00C5B03A /* CmdSwipe Extension.appex */,
+				C21372B92FCC424D00C5B03A /* CmdSwipe Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C21372932FCC424D00C5B03A /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C21372942FCC424D00C5B03A /* AppDelegate.swift */,
+				C21372962FCC424D00C5B03A /* SceneDelegate.swift */,
+				C21372982FCC424D00C5B03A /* LaunchScreen.storyboard */,
+				C213729B2FCC424D00C5B03A /* Main.storyboard */,
+				C213729E2FCC424D00C5B03A /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		C21372A42FCC424D00C5B03A /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				C21372A52FCC424D00C5B03A /* AppDelegate.swift */,
+				C21372A72FCC424D00C5B03A /* Main.storyboard */,
+				C21372AA2FCC424D00C5B03A /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		C21372B32FCC424D00C5B03A /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C21372B42FCC424D00C5B03A /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C21372BD2FCC424D00C5B03A /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				C21372BE2FCC424D00C5B03A /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C21372DD2FCC424D00C5B03A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C21372DF2FCC424D00C5B03A /* manifest.json */,
+				C21372DE2FCC424D00C5B03A /* background.js */,
+				C21372E02FCC424D00C5B03A /* content.js */,
+				C2865B8D2FCC44E5005A3420 /* popup.html */,
+				C2865B8E2FCC44E5005A3420 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C21372902FCC424D00C5B03A /* CmdSwipe (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21372D32FCC424D00C5B03A /* Build configuration list for PBXNativeTarget "CmdSwipe (iOS)" */;
+			buildPhases = (
+				C213728D2FCC424D00C5B03A /* Sources */,
+				C213728E2FCC424D00C5B03A /* Frameworks */,
+				C213728F2FCC424D00C5B03A /* Resources */,
+				C21372D22FCC424D00C5B03A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21372B22FCC424D00C5B03A /* PBXTargetDependency */,
+			);
+			name = "CmdSwipe (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "CmdSwipe (iOS)";
+			productReference = C21372912FCC424D00C5B03A /* CmdSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C21372A22FCC424D00C5B03A /* CmdSwipe (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21372DA2FCC424D00C5B03A /* Build configuration list for PBXNativeTarget "CmdSwipe (macOS)" */;
+			buildPhases = (
+				C213729F2FCC424D00C5B03A /* Sources */,
+				C21372A02FCC424D00C5B03A /* Frameworks */,
+				C21372A12FCC424D00C5B03A /* Resources */,
+				C21372D92FCC424D00C5B03A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C21372BC2FCC424D00C5B03A /* PBXTargetDependency */,
+			);
+			name = "CmdSwipe (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "CmdSwipe (macOS)";
+			productReference = C21372A32FCC424D00C5B03A /* CmdSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C21372AE2FCC424D00C5B03A /* CmdSwipe Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21372CF2FCC424D00C5B03A /* Build configuration list for PBXNativeTarget "CmdSwipe Extension (iOS)" */;
+			buildPhases = (
+				C21372AB2FCC424D00C5B03A /* Sources */,
+				C21372AC2FCC424D00C5B03A /* Frameworks */,
+				C21372AD2FCC424D00C5B03A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CmdSwipe Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "CmdSwipe Extension (iOS)";
+			productReference = C21372AF2FCC424D00C5B03A /* CmdSwipe Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C21372B82FCC424D00C5B03A /* CmdSwipe Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C21372D62FCC424D00C5B03A /* Build configuration list for PBXNativeTarget "CmdSwipe Extension (macOS)" */;
+			buildPhases = (
+				C21372B52FCC424D00C5B03A /* Sources */,
+				C21372B62FCC424D00C5B03A /* Frameworks */,
+				C21372B72FCC424D00C5B03A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CmdSwipe Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "CmdSwipe Extension (macOS)";
+			productReference = C21372B92FCC424D00C5B03A /* CmdSwipe Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C213727E2FCC424C00C5B03A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					C21372902FCC424D00C5B03A = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					C21372A22FCC424D00C5B03A = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					C21372AE2FCC424D00C5B03A = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					C21372B82FCC424D00C5B03A = {
+						CreatedOnToolsVersion = 26.5;
+					};
+				};
+			};
+			buildConfigurationList = C21372812FCC424C00C5B03A /* Build configuration list for PBXProject "CmdSwipe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C213727D2FCC424C00C5B03A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C21372922FCC424D00C5B03A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C21372902FCC424D00C5B03A /* CmdSwipe (iOS) */,
+				C21372A22FCC424D00C5B03A /* CmdSwipe (macOS) */,
+				C21372AE2FCC424D00C5B03A /* CmdSwipe Extension (iOS) */,
+				C21372B82FCC424D00C5B03A /* CmdSwipe Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C213728F2FCC424D00C5B03A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21372C12FCC424D00C5B03A /* Icon.png in Resources */,
+				C213729A2FCC424D00C5B03A /* LaunchScreen.storyboard in Resources */,
+				C21372BF2FCC424D00C5B03A /* Main.html in Resources */,
+				C21372C52FCC424D00C5B03A /* Script.js in Resources */,
+				C21372C92FCC424D00C5B03A /* Assets.xcassets in Resources */,
+				C213729D2FCC424D00C5B03A /* Main.storyboard in Resources */,
+				C21372C32FCC424D00C5B03A /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21372A12FCC424D00C5B03A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21372C22FCC424D00C5B03A /* Icon.png in Resources */,
+				C21372C42FCC424D00C5B03A /* Style.css in Resources */,
+				C21372A92FCC424D00C5B03A /* Main.storyboard in Resources */,
+				C21372C62FCC424D00C5B03A /* Script.js in Resources */,
+				C21372CA2FCC424D00C5B03A /* Assets.xcassets in Resources */,
+				C21372C02FCC424D00C5B03A /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21372AD2FCC424D00C5B03A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2865B912FCC44E5005A3420 /* popup.html in Resources */,
+				C2865B922FCC44E5005A3420 /* popup.js in Resources */,
+				C21372E62FCC424D00C5B03A /* content.js in Resources */,
+				C21372E52FCC424D00C5B03A /* manifest.json in Resources */,
+				C21372E42FCC424D00C5B03A /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21372B72FCC424D00C5B03A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2865B8F2FCC44E5005A3420 /* popup.html in Resources */,
+				C2865B902FCC44E5005A3420 /* popup.js in Resources */,
+				C21372E32FCC424D00C5B03A /* content.js in Resources */,
+				C21372E22FCC424D00C5B03A /* manifest.json in Resources */,
+				C21372E12FCC424D00C5B03A /* background.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C213728D2FCC424D00C5B03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21372C72FCC424D00C5B03A /* ViewController.swift in Sources */,
+				C21372952FCC424D00C5B03A /* AppDelegate.swift in Sources */,
+				C21372972FCC424D00C5B03A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C213729F2FCC424D00C5B03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21372C82FCC424D00C5B03A /* ViewController.swift in Sources */,
+				C21372A62FCC424D00C5B03A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21372AB2FCC424D00C5B03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21372CB2FCC424D00C5B03A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21372B52FCC424D00C5B03A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21372CC2FCC424D00C5B03A /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C21372B22FCC424D00C5B03A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21372AE2FCC424D00C5B03A /* CmdSwipe Extension (iOS) */;
+			targetProxy = C21372B12FCC424D00C5B03A /* PBXContainerItemProxy */;
+		};
+		C21372BC2FCC424D00C5B03A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C21372B82FCC424D00C5B03A /* CmdSwipe Extension (macOS) */;
+			targetProxy = C21372BB2FCC424D00C5B03A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C21372842FCC424C00C5B03A /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21372852FCC424C00C5B03A /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C21372982FCC424D00C5B03A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21372992FCC424D00C5B03A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C213729B2FCC424D00C5B03A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C213729C2FCC424D00C5B03A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C21372A72FCC424D00C5B03A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21372A82FCC424D00C5B03A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C21372CD2FCC424D00C5B03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C21372CE2FCC424D00C5B03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C21372D02FCC424D00C5B03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54RY29KA2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CmdSwipe Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jash.CmdSwipe.Extension;
+				PRODUCT_NAME = "CmdSwipe Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C21372D12FCC424D00C5B03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54RY29KA2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CmdSwipe Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jash.CmdSwipe.Extension;
+				PRODUCT_NAME = "CmdSwipe Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C21372D42FCC424D00C5B03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54RY29KA2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CmdSwipe;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jash.CmdSwipe;
+				PRODUCT_NAME = CmdSwipe;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C21372D52FCC424D00C5B03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54RY29KA2Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CmdSwipe;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jash.CmdSwipe;
+				PRODUCT_NAME = CmdSwipe;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C21372D72FCC424D00C5B03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54RY29KA2Y;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CmdSwipe Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jash.CmdSwipe.Extension;
+				PRODUCT_NAME = "CmdSwipe Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C21372D82FCC424D00C5B03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54RY29KA2Y;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CmdSwipe Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jash.CmdSwipe.Extension;
+				PRODUCT_NAME = "CmdSwipe Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C21372DB2FCC424D00C5B03A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54RY29KA2Y;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CmdSwipe;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jash.CmdSwipe;
+				PRODUCT_NAME = CmdSwipe;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C21372DC2FCC424D00C5B03A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54RY29KA2Y;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CmdSwipe;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jash.CmdSwipe;
+				PRODUCT_NAME = CmdSwipe;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C21372812FCC424C00C5B03A /* Build configuration list for PBXProject "CmdSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21372CD2FCC424D00C5B03A /* Debug */,
+				C21372CE2FCC424D00C5B03A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21372CF2FCC424D00C5B03A /* Build configuration list for PBXNativeTarget "CmdSwipe Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21372D02FCC424D00C5B03A /* Debug */,
+				C21372D12FCC424D00C5B03A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21372D32FCC424D00C5B03A /* Build configuration list for PBXNativeTarget "CmdSwipe (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21372D42FCC424D00C5B03A /* Debug */,
+				C21372D52FCC424D00C5B03A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21372D62FCC424D00C5B03A /* Build configuration list for PBXNativeTarget "CmdSwipe Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21372D72FCC424D00C5B03A /* Debug */,
+				C21372D82FCC424D00C5B03A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C21372DA2FCC424D00C5B03A /* Build configuration list for PBXNativeTarget "CmdSwipe (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21372DB2FCC424D00C5B03A /* Debug */,
+				C21372DC2FCC424D00C5B03A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C213727E2FCC424C00C5B03A /* Project object */;
+}
