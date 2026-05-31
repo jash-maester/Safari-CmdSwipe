@@ -1,4 +1,4 @@
-const DEFAULTS = { modifier: "cmd", threshold: 80 };
+const DEFAULTS = { modifier: "cmd", threshold: 80, reverse: false };
 const VALID_MODIFIERS = ["cmd", "option", "hyper"];
 const MIN_THRESHOLD = 30;
 const MAX_THRESHOLD = 200;
@@ -6,6 +6,7 @@ const MAX_THRESHOLD = 200;
 const keyOptions = document.getElementById("keyOptions");
 const slider = document.getElementById("thresholdSlider");
 const numberInput = document.getElementById("thresholdInput");
+const reverseToggle = document.getElementById("reverseToggle");
 
 function renderModifier(mod) {
   for (const el of keyOptions.querySelectorAll(".key-option")) {
@@ -46,6 +47,7 @@ chrome.storage.local.get(DEFAULTS, (stored) => {
   }
   renderModifier(mod);
   renderThreshold(clampThreshold(stored.threshold ?? DEFAULTS.threshold));
+  reverseToggle.checked = stored.reverse === true;
 });
 
 keyOptions.addEventListener("click", (event) => {
@@ -60,4 +62,8 @@ slider.addEventListener("input", () => {
 
 numberInput.addEventListener("change", () => {
   commitThreshold(numberInput.value);
+});
+
+reverseToggle.addEventListener("change", () => {
+  chrome.storage.local.set({ reverse: reverseToggle.checked });
 });
